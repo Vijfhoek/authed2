@@ -54,7 +54,7 @@ public class AuthedPlayerListener extends PlayerListener {
 		// Clear the player's inventory
 		inv.clear();
 		
-		// Teleport the player to spawn
+		// Send the player to spawn
 		player.teleport(player.getWorld().getSpawnLocation());
 		
 		// Clear the player's level and XP
